@@ -1,0 +1,30 @@
+{
+  "name": "pop-serverless-ioredis",
+  "version": "1.0.0",
+  "description": "Serverless webpack example using Typescript",
+  "main": "handler.js",
+  "scripts": {
+    "start": "serverless offline start",
+    "package": "serverless package",
+    "deploy": "serverless deploy"
+  },
+  "dependencies": {
+    "ioredis": "^4.14.0",
+    "source-map-support": "^0.5.10"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.17",
+    "@types/ioredis": "^4.0.15",
+    "@types/node": "^10.12.18",
+    "serverless": "^1.51.0",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.10.1",
+    "serverless-webpack": "^5.2.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+  "license": "MIT"
+}
